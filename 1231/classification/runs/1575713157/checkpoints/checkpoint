@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1480"
+all_model_checkpoint_paths: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1440"
+all_model_checkpoint_paths: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1450"
+all_model_checkpoint_paths: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1460"
+all_model_checkpoint_paths: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1470"
+all_model_checkpoint_paths: "/home/xuzh/new1/classification/runs/1575713157/checkpoints/model-1480"

@@ -1,0 +1,114 @@
+{
+    "dataset_reader": {
+        "type": "wikitables_variable_free",
+        "keep_if_no_logical_forms": false,
+        "lazy": false,
+        "max_offline_logical_forms": 50,
+        "offline_logical_forms_directory": "/home/xuzh/0112/data/lgfs_new/",
+        "tables_directory": "/home/xuzh/1231/data/WikiTableQuestions/"
+    },
+    "iterator": {
+        "type": "basic",
+        "batch_size": 1
+    },
+    "model": {
+        "type": "wikitables_variable_free_mml",
+        "action_embedding_dim": 200,
+        "attention": {
+            "type": "bilinear",
+            "matrix_dim": 200,
+            "vector_dim": 200
+        },
+        "decoder_beam_search": {
+            "beam_size": 10
+        },
+        "dropout": 0.1,
+        "encoder": {
+            "type": "lstm",
+            "bidirectional": true,
+            "hidden_size": 100,
+            "input_size": 400,
+            "num_layers": 1
+        },
+        "entity_encoder": {
+            "type": "boe",
+            "averaged": true,
+            "embedding_dim": 200
+        },
+        "fixed_question_embedder": {
+            "tokens": {
+                "type": "embedding",
+                "embedding_dim": 200,
+                "trainable": false
+            }
+        },
+        "initializer": [
+            [
+                "_action_embedder.weight|_output_action_embedder.weight|fixed_action_embedder.weight|fixed_question_embedder.token_embedder_tokens.weight",
+                {
+                    "parameter_name_overrides": {
+                        "fixed_action_embedder.weight": "_action_embedder.weight",
+                        "fixed_question_embedder.token_embedder_tokens.weight": "_question_embedder.token_embedder_tokens.weight"
+                    },
+                    "type": "pretrained",
+                    "weights_file_path": "/home/xuzh/1231/allennlp/1227/best.th"
+                }
+            ],
+            [
+                "_encoder._module.weight.*",
+                {
+                    "type": "orthogonal"
+                }
+            ],
+            [
+                ".*bias.*",
+                {
+                    "type": "constant",
+                    "val": 0
+                }
+            ]
+        ],
+        "max_decoding_steps": 40,
+        "question_embedder": {
+            "tokens": {
+                "type": "embedding",
+                "embedding_dim": 200,
+                "trainable": true
+            }
+        }
+    },
+    "train_data_path": "/home/xuzh/1231/data/test_data/train.examples",
+    "validation_data_path": "/home/xuzh/1231/data/test_data/train.examples",
+    "trainer": {
+        "cuda_device": 0,
+        "grad_norm": 5,
+        "learning_rate_scheduler": {
+            "type": "exponential",
+            "gamma": 0.99
+        },
+        "num_epochs": 40,
+        "optimizer": {
+            "type": "sgd",
+            "lr": 0.1
+        },
+        "patience": 10,
+        "validation_metric": "+denotation_acc"
+    },
+    "vocabulary": {
+        "min_count": {
+            "tokens": 3
+        },
+        "tokens_to_add": {
+            "tokens": [
+                "-1"
+            ]
+        }
+    },
+    "validation_dataset_reader": {
+        "type": "wikitables_variable_free",
+        "keep_if_no_logical_forms": true,
+        "lazy": false,
+        "offline_logical_forms_directory": "/home/xuzh/0112/data/lgfs_new/",
+        "tables_directory": "/home/xuzh/1231/data/WikiTableQuestions/"
+    }
+}

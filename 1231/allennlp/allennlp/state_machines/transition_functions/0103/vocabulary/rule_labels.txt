@@ -1,0 +1,55 @@
+<n,<n,<n,d>>> -> date
+<r,<g,r>> -> same_as
+<r,<t,<s,r>>> -> filter_in
+<r,<t,<s,r>>> -> filter_not_in
+<r,<t,s>> -> mode_string
+<r,<t,s>> -> select_string
+<r,n> -> count
+<r,r> -> first
+<r,r> -> last
+<r,r> -> next
+<r,r> -> previous
+@start@ -> d
+@start@ -> n
+@start@ -> s
+d -> [<n,<n,<n,d>>>, n, n, n]
+n -> [<r,n>, r]
+r -> [<r,<g,r>>, r, t]
+r -> [<r,<t,<s,r>>>, r, t, s]
+r -> [<r,r>, r]
+r -> all_rows
+s -> [<r,<t,s>>, r, t]
+<r,<c,r>> -> argmax
+<r,<c,r>> -> argmin
+<r,<f,<n,r>>> -> filter_number_equals
+<r,<f,<n,r>>> -> filter_number_greater
+<r,<f,<n,r>>> -> filter_number_greater_equals
+<r,<f,<n,r>>> -> filter_number_lesser
+<r,<f,<n,r>>> -> filter_number_lesser_equals
+<r,<f,<n,r>>> -> filter_number_not_equals
+<r,<f,n>> -> average
+<r,<f,n>> -> max_number
+<r,<f,n>> -> min_number
+<r,<f,n>> -> mode_number
+<r,<f,n>> -> select_number
+<r,<f,n>> -> sum
+<r,<r,<f,n>>> -> diff
+n -> [<r,<f,n>>, r, f]
+n -> [<r,<r,<f,n>>>, r, r, f]
+r -> [<r,<c,r>>, r, f]
+r -> [<r,<f,<n,r>>>, r, f, n]
+r -> [<r,<g,r>>, r, f]
+<r,<m,<d,r>>> -> filter_date_equals
+<r,<m,<d,r>>> -> filter_date_greater
+<r,<m,<d,r>>> -> filter_date_greater_equals
+<r,<m,<d,r>>> -> filter_date_lesser
+<r,<m,<d,r>>> -> filter_date_lesser_equals
+<r,<m,<d,r>>> -> filter_date_not_equals
+<r,<m,d>> -> max_date
+<r,<m,d>> -> min_date
+<r,<m,d>> -> mode_date
+<r,<m,d>> -> select_date
+d -> [<r,<m,d>>, r, m]
+r -> [<r,<c,r>>, r, m]
+r -> [<r,<g,r>>, r, m]
+r -> [<r,<m,<d,r>>>, r, m, d]

@@ -1,0 +1,201 @@
+0it [00:00, ?it/s]
+10it [00:00, 16.74it/s]
+
+0it [00:00, ?it/s]
+13it [00:00, 26.75it/s]
+
+0it [00:00, ?it/s]
+23it [00:00, 1897.54it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 10.9076 ||: 100%|##########| 10/10 [00:01<00:00,  5.84it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0769, lf_percent: 1.0000, loss: 9.9393 ||: 100%|##########| 13/13 [00:02<00:00,  5.68it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 10.1651 ||: 100%|##########| 10/10 [00:01<00:00,  7.28it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 9.9033 ||: 100%|##########| 13/13 [00:04<00:00,  3.16it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 9.9542 ||: 100%|##########| 10/10 [00:01<00:00,  7.92it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 7.9885 ||: 100%|##########| 13/13 [00:02<00:00,  4.89it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 8.1710 ||: 100%|##########| 10/10 [00:01<00:00,  7.44it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 10.2253 ||: 100%|##########| 13/13 [00:04<00:00,  3.07it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 7.5430 ||: 100%|##########| 10/10 [00:01<00:00,  8.94it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 6.3125 ||: 100%|##########| 13/13 [00:01<00:00,  9.26it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 7.2556 ||: 100%|##########| 10/10 [00:01<00:00,  7.11it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 6.1747 ||: 100%|##########| 13/13 [00:02<00:00,  5.76it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 6.6507 ||: 100%|##########| 10/10 [00:01<00:00,  6.96it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 1.0000, loss: 8.2693 ||: 100%|##########| 13/13 [00:03<00:00,  4.30it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 6.4883 ||: 100%|##########| 10/10 [00:01<00:00,  8.37it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.0769, lf_percent: 1.0000, loss: 5.8372 ||: 100%|##########| 13/13 [00:01<00:00,  6.90it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 5.3819 ||: 100%|##########| 10/10 [00:01<00:00,  7.70it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 7.7426 ||: 100%|##########| 13/13 [00:01<00:00,  9.07it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 7.0180 ||: 100%|##########| 10/10 [00:01<00:00,  8.66it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 6.1288 ||: 100%|##########| 13/13 [00:01<00:00,  9.66it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 5.7046 ||: 100%|##########| 10/10 [00:01<00:00,  6.50it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.0769, lf_percent: 1.0000, loss: 5.6017 ||: 100%|##########| 13/13 [00:02<00:00,  5.34it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 4.3949 ||: 100%|##########| 10/10 [00:01<00:00,  8.23it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.0769, lf_percent: 1.0000, loss: 7.2720 ||: 100%|##########| 13/13 [00:01<00:00,  7.90it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 5.7932 ||: 100%|##########| 10/10 [00:01<00:00,  7.12it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 5.9540 ||: 100%|##########| 13/13 [00:01<00:00,  7.18it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 4.6658 ||: 100%|##########| 10/10 [00:01<00:00,  7.78it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.0769, lf_percent: 1.0000, loss: 5.9232 ||: 100%|##########| 13/13 [00:02<00:00,  5.79it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 5.0225 ||: 100%|##########| 10/10 [00:01<00:00,  8.42it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 4.6347 ||: 100%|##########| 13/13 [00:01<00:00,  7.45it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.8958 ||: 100%|##########| 10/10 [00:01<00:00,  7.23it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 4.4988 ||: 100%|##########| 13/13 [00:01<00:00,  8.12it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.9881 ||: 100%|##########| 10/10 [00:01<00:00,  8.25it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 5.0743 ||: 100%|##########| 13/13 [00:01<00:00,  9.11it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.8799 ||: 100%|##########| 10/10 [00:01<00:00,  7.64it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.1000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 5.3096 ||: 100%|##########| 13/13 [00:01<00:00,  8.15it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.4970 ||: 100%|##########| 10/10 [00:01<00:00,  7.52it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.2308, lf_percent: 1.0000, loss: 4.5646 ||: 100%|##########| 13/13 [00:01<00:00,  8.29it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 4.0325 ||: 100%|##########| 10/10 [00:01<00:00,  7.77it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.2308, lf_percent: 1.0000, loss: 4.2317 ||: 100%|##########| 13/13 [00:01<00:00,  8.94it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.6710 ||: 100%|##########| 10/10 [00:01<00:00,  6.90it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.3077, lf_percent: 1.0000, loss: 4.8692 ||: 100%|##########| 13/13 [00:01<00:00,  7.14it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.0325 ||: 100%|##########| 10/10 [00:01<00:00,  7.52it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 5.0223 ||: 100%|##########| 13/13 [00:01<00:00,  8.36it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 4.1819 ||: 100%|##########| 10/10 [00:01<00:00,  8.01it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.1538, lf_percent: 1.0000, loss: 4.3613 ||: 100%|##########| 13/13 [00:01<00:00, 10.19it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 2.8498 ||: 100%|##########| 10/10 [00:01<00:00,  7.42it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.2308, lf_percent: 1.0000, loss: 5.6646 ||: 100%|##########| 13/13 [00:01<00:00,  7.90it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.5658 ||: 100%|##########| 10/10 [00:01<00:00,  7.46it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 3.7014 ||: 100%|##########| 13/13 [00:01<00:00,  8.36it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.2728 ||: 100%|##########| 10/10 [00:01<00:00,  8.27it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 3.8287 ||: 100%|##########| 13/13 [00:01<00:00,  9.42it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 2.6518 ||: 100%|##########| 10/10 [00:01<00:00,  7.02it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.2000, denotation_acc: 0.3077, lf_percent: 1.0000, loss: 3.9448 ||: 100%|##########| 13/13 [00:01<00:00,  7.38it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 2.3143 ||: 100%|##########| 10/10 [00:01<00:00,  8.08it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 3.8113 ||: 100%|##########| 13/13 [00:01<00:00,  8.73it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 2.3466 ||: 100%|##########| 10/10 [00:01<00:00,  9.24it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.3000, denotation_acc: 0.3077, lf_percent: 1.0000, loss: 3.5788 ||: 100%|##########| 13/13 [00:01<00:00,  9.56it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.8339 ||: 100%|##########| 10/10 [00:01<00:00,  6.77it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 4.3455 ||: 100%|##########| 13/13 [00:01<00:00,  7.53it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 2.8258 ||: 100%|##########| 10/10 [00:01<00:00,  6.82it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 3.5417 ||: 100%|##########| 13/13 [00:01<00:00,  8.42it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.0000, denotation_acc: 0.0000, lf_percent: 0.0000, loss: 3.3640 ||: 100%|##########| 10/10 [00:01<00:00,  8.22it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+lf_retrieval_acc: 0.4000, denotation_acc: 0.3846, lf_percent: 1.0000, loss: 3.5779 ||: 100%|##########| 13/13 [00:01<00:00,  9.53it/s]
+

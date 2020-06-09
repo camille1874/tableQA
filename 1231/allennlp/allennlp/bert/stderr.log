@@ -1,0 +1,53 @@
+0it [00:00, ?it/s]
+2it [00:00, 13.19it/s]
+4it [00:00, 13.03it/s]
+6it [00:00, 14.09it/s]
+8it [00:00, 13.68it/s]
+10it [00:00, 13.85it/s]
+10it [00:00, 13.86it/s]
+
+0it [00:00, ?it/s]
+2it [00:00, 16.86it/s]
+4it [00:00, 16.88it/s]
+7it [00:00, 17.99it/s]
+9it [00:00, 18.15it/s]
+11it [00:00, 17.95it/s]
+12it [00:00, 19.06it/s]
+
+0it [00:00, ?it/s]
+22it [00:00, 7399.73it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/geshi/.pycharm_helpers/profiler/run_profiler.py", line 173, in <module>
+    profiler.run(file)
+  File "/home/geshi/.pycharm_helpers/profiler/run_profiler.py", line 89, in run
+    execfile(file, globals, globals)  # execute the script
+  File "/home/geshi/.pycharm_helpers/profiler/prof_util.py", line 30, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/mnt/allennlp/allennlp/run.py", line 18, in <module>
+    main(prog="allennlp")
+  File "/mnt/allennlp/allennlp/commands/__init__.py", line 72, in main
+    args.func(args)
+  File "/mnt/allennlp/allennlp/commands/train.py", line 111, in train_model_from_args
+    args.force)
+  File "/mnt/allennlp/allennlp/commands/train.py", line 144, in train_model_from_file
+    return train_model(params, serialization_dir, file_friendly_logging, recover, force)
+  File "/mnt/allennlp/allennlp/commands/train.py", line 361, in train_model
+    metrics = trainer.train()
+  File "/mnt/allennlp/allennlp/training/trainer.py", line 787, in train
+    train_metrics = self._train_epoch(epoch)
+  File "/mnt/allennlp/allennlp/training/trainer.py", line 515, in _train_epoch
+    loss = self.batch_loss(batch, for_training=True)
+  File "/mnt/allennlp/allennlp/training/trainer.py", line 434, in batch_loss
+    output_dict = self.model(**batch)
+  File "/home/geshi/anaconda3/envs/allennlp-081-np/lib/python3.6/site-packages/torch-1.2.0-py3.6-linux-x86_64.egg/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/allennlp/weak_supervision/models/semantic_parsing/wikitables_variable_free/wikitables_variable_free_mml.py", line 163, in forward
+    outputs)
+  File "/mnt/allennlp/weak_supervision/models/semantic_parsing/wikitables_variable_free/wikitables_variable_free_parser.py", line 256, in _get_initial_rnn_and_grammar_state
+    question_mask, entity_type_dict)
+  File "/mnt/allennlp/weak_supervision/models/semantic_parsing/wikitables_variable_free/wikitables_variable_free_parser.py", line 484, in _get_linking_probabilities
+    return batch_probabilities * question_mask.unsqueeze(-1).float()
+RuntimeError: The size of tensor a (13) must match the size of tensor b (11) at non-singleton dimension 1
+  0%|          | 0/10 [00:00<?, ?it/s]

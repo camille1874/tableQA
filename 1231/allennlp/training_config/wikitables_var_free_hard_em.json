@@ -1,0 +1,77 @@
+{
+  "random_seed": 4536,
+  "numpy_seed": 9834,
+  "pytorch_seed": 953,
+  "dataset_reader": {
+    "type": "wikitables_variable_free",
+    "tables_directory": "/home/t-geshi/nsm_allen/WikiTableQuestions/",
+    "offline_logical_forms_directory": "/home/t-geshi/nsm_allen/searched_lfs_with_rules_no_conservative/",
+    "max_offline_logical_forms": 10,
+    "lazy": false
+  },
+  "validation_dataset_reader": {
+    "type": "wikitables_variable_free",
+    "tables_directory": "WikiTableQuestions/",
+    "offline_logical_forms_directory": "/home/t-geshi/nsm_allen/searched_lfs_with_rules_no_conservative/",
+    "keep_if_no_logical_forms": false,
+    "lazy": false
+  },
+  "vocabulary": {
+    "min_count": {"tokens": 3},
+    "tokens_to_add": {"tokens": ["-1"]}
+  },
+  "train_data_path": "/home/t-geshi/nsm_allen/WikiTableQuestions/data/random-split-1-train.examples",
+  "validation_data_path": "/home/t-geshi/nsm_allen/WikiTableQuestions/data/random-split-1-dev.examples",
+  "model": {
+    "type": "wikitables_variable_free_hardem",
+    "question_embedder": {
+      "tokens": {
+        "type": "embedding",
+        "embedding_dim": 200,
+        "trainable": true
+      }
+    },
+    "action_embedding_dim": 100,
+    "encoder": {
+      "type": "lstm",
+      "input_size": 400,
+      "hidden_size": 100,
+      "bidirectional": true,
+      "num_layers": 1
+    },
+    "entity_encoder": {
+      "type": "boe",
+      "embedding_dim": 200,
+      "averaged": true
+    },
+    "decoder_beam_search": {
+      "beam_size": 10
+    },
+    "max_decoding_steps": 40,
+    "attention": {
+      "type": "bilinear",
+      "vector_dim": 200,
+      "matrix_dim": 200
+    },
+    "dropout": 0.50
+  },
+  "iterator": {
+    "type": "basic",
+    "batch_size" : 64
+  },
+  "trainer": {
+    "num_epochs": 100,
+    "patience": 10,
+    "cuda_device": 0,
+    "grad_norm": 5.0,
+    "validation_metric": "+denotation_acc",
+    "optimizer": {
+      "type": "sgd",
+      "lr": 0.1
+    },
+    "learning_rate_scheduler": {
+      "type": "exponential",
+      "gamma": 0.99
+    }
+  }
+}
